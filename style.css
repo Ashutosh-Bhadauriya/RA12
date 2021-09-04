@@ -86,9 +86,7 @@ main h3 {
   text-align: left;
 }
 
-.question-container label{
-  /* margin: 0px 50px;     */
-}
+
 .question-container input{
   margin: 5px 5px;
 }
@@ -149,6 +147,7 @@ main h3 {
 .output {
   font-size: x-large;
   margin: 1rem;
+  text-align: center;
 }
 
 a, 
