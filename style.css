@@ -1,0 +1,160 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --primary-color: blue;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;  
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+header {
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header h1 {
+  font-family: "Megrim", cursive;
+  text-align: left;
+  font-size: 40px;
+}
+
+nav {
+  text-align: right;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav > a {
+  padding: 0 0.8rem;
+}
+
+
+
+main {  
+  background-color: rgb(228, 228, 255);
+  padding: 20px;
+}
+
+main h1 {  
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+main h3 {
+  color: var(--primary-color);
+  font-size: 25px;
+  text-align: center;
+}
+
+
+
+.question-container {
+  width: 85%;
+  margin: 2rem auto;
+  font-size: larger;
+  padding: 20px;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  background-color: rgb(88, 91, 255);  
+  color: white;
+}
+
+.question-container p {
+  margin: 1rem 0;
+  font-size: 23px;
+  text-align: left;
+}
+
+.question-container label{
+  /* margin: 0px 50px;     */
+}
+.question-container input{
+  margin: 5px 5px;
+}
+
+.angles-triangles-main{
+  text-align: center;
+  height: 700px;
+
+}
+
+.calculate-area-main{
+  text-align: center;
+  height: 700px;
+
+}
+
+.calculate-hypo-main{
+  text-align: center;
+  height: 700px;
+}
+
+.input-label {
+  font-size: larger;  
+  width: 256px;
+  font-weight: 500;
+}
+
+.input-label p {
+  font-size: larger;  
+}
+
+.input-text {
+  font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  margin-bottom: 40px;
+  border: 2px solid var(--primary-color);
+  border-radius: 25px;
+  width: 100%;
+  max-width: 258px;
+}
+
+.btn-check {
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 25px;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: 1rem auto;
+  display: block;
+  outline: none;
+}
+
+.output {
+  font-size: x-large;
+  margin: 1rem;
+}
+
+a, 
+li {
+  display: inline;
+  color: #fff;
+}
+
+
